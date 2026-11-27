@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="قالب عرض أعمال سينمائي بتصميم نظيف ومتجاوب">
+  <title>عرض أعمال</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Noto+Kufi+Arabic:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="smooth-wrapper">
+    <main id="smooth-content">
+      <header class="header" aria-label="الشعار">
+        <a class="logo" href="#hero" aria-label="العودة إلى البداية">ماركة</a>
+      </header>
+
+      <section class="hero" id="hero">
+        <div class="hero__content">
+          <p class="eyebrow">معرض مختار · 2026</p>
+          <h1 class="hero__title">نص<br>مؤثّر</h1>
+          <p class="hero__text">أضف هنا وصفًا قصيرًا لعلامتك أو مشروعك، ليشعر الزائر بهوية التجربة منذ النظرة الأولى.</p>
+        </div>
+
+        <!-- استبدل رابط الصورة بهذا الملف: assets/hero-main.jpg -->
+        <img class="hero__image hero__image--main" src="https://picsum.photos/seed/hero-main/900/1200" alt="صورة رئيسية قابلة للاستبدال">
+        <!-- استبدل رابط الصورة بهذا الملف: assets/hero-detail.jpg -->
+        <img class="hero__image hero__image--detail" src="https://picsum.photos/seed/hero-detail/700/900" alt="تفاصيل قابلة للاستبدال">
+      </section>
+
+      <section class="panel panel--one" id="section-1">
+        <div class="panel__copy">
+          <p class="eyebrow">القسم الأول</p>
+          <h2 class="panel__title"><span>عنوان</span><span>الأثر الأول</span></h2>
+          <p class="panel__text">استخدم هذه المساحة لوصف مشروع مميز أو فكرة ترفع قيمة علامتك وتجعل التجربة أكثر وضوحًا.</p>
+          <a class="panel__link" href="#section-2" aria-label="انتقل إلى القسم الثاني">
+            اكتشف التالي <span aria-hidden="true">←</span>
+          </a>
+        </div>
+        <div class="panel__visual">
+          <!-- استبدل رابط الصورة بهذا الملف: assets/project-1.jpg -->
+          <img src="https://picsum.photos/seed/project-1/1200/1500" alt="مشروع أول قابل للاستبدال">
+        </div>
+      </section>
+
+      <section class="panel panel--two" id="section-2">
+        <div class="panel__copy">
+          <p class="eyebrow">القسم الثاني</p>
+          <h2 class="panel__title"><span>حكاية</span><span>بصيرة</span></h2>
+          <p class="panel__text">قسّم المحتوى إلى عناوين قصيرة، واستخدم صورًا عالية الجودة لتكوين إيقاع بصري متوازن.</p>
+          <a class="panel__link" href="#section-3" aria-label="انتقل إلى القسم الثالث">
+            اكتشف التالي <span aria-hidden="true">←</span>
+          </a>
+        </div>
+        <div class="panel__visual">
+          <!-- استبدل رابط الصورة بهذا الملف: assets/project-2.jpg -->
+          <img src="https://picsum.photos/seed/project-2/1200/1500" alt="مشروع ثاني قابل للاستبدال">
+        </div>
+      </section>
+
+      <section class="panel panel--three" id="section-3">
+        <div class="panel__copy">
+          <p class="eyebrow">القسم الثالث</p>
+          <h2 class="panel__title"><span>نقطة</span><span>الانتهاء</span></h2>
+          <p class="panel__text">الخاتمة تترك انطباعًا واضحًا. اطرح سؤالًا، أو دعوة للتواصل، أو ملخصًا مختصرًا عن رحلتك.</p>
+          <a class="panel__link" href="mailto:hello@example.com">
+            تواصل معنا <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="panel__visual">
+          <!-- استبدل رابط الصورة بهذا الملف: assets/project-3.jpg -->
+          <img src="https://picsum.photos/seed/project-3/1200/1500" alt="مشروع ثالث قابل للاستبدال">
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>علامة تجارية © 2026</p>
+        <a href="#hero">العودة إلى الأعلى ↑</a>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
